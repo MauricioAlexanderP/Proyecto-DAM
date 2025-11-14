@@ -78,6 +78,7 @@
 
     <!-- Enlace "Ver todas" -->
     <TextView
+        android:id="@+id/tvVerTodas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
@@ -86,7 +87,10 @@
         android:text="Ver todas"
         android:textColor="@color/primario"
         android:textSize="14sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp" />
 
     <!-- Sección de Sesiones Pendientes -->
     <TextView
@@ -291,7 +295,7 @@
         android:background="@color/white"
         app:itemIconTint="@color/black"
         app:itemTextColor="@color/black"
-        app:labelVisibilityMode="labeled"
+        app:labelVisibilityMode="unlabeled"
         app:menu="@menu/bottom_nav_menu" />
 
 </LinearLayout>
