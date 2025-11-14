@@ -107,6 +107,7 @@
         android:layout_marginHorizontal="4dp">
 
         <LinearLayout
+            android:id="@+id/reunionesContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
